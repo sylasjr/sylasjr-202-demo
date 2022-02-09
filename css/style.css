@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-nav{
+    background: rgb(198, 202, 226) !important;
+}
+
+.logo img {
+    width:40px;
+    height: 40px;
+}
+
+.navbar-nav{
+    margin:auto;
+}
+
+.jumbotron{
+    background-image: linear-gradient(to bottom, rgba(49, 32, 9, 0.9), rgba(67, 61, 184, 0.4)), url("../images/weight-lift.jpg");
+    background-size: cover;
+    background-position: 20px;
+    height:350px;
+    color:white;
+
+}
+
+.jumbotron .display-4{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
